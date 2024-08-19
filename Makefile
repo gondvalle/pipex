@@ -98,4 +98,4 @@ re: fclean all
 
 re_bonus: fclean bonus
 
-.PHONY: all clean fclean debug bonus re re_bonus
+.PHONY: all clean fclean debug bonus debug_bonus re re_bonus
