@@ -73,5 +73,6 @@ int					**piping(t_arguments_bonus arguments, int argn);
 void				fds_free(int **fds, int i, int x);
 void 				ft_wait(t_arguments_bonus arguments, int argn, pid_t *pid, int **fds);
 void				here_doc(char **argv, int *fd);
+void				dup_here(char **argv);
 
 #endif
