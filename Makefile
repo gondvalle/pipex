@@ -26,7 +26,7 @@ SRC_BONUS =	main_bonus.c		\
 			checker_bonus.c		\
 			checker.c			\
 			pipex_utils.c		\
-			here_doc.c		\
+			here_doc.c			\
 
 OBJS = $(addprefix $(OBJ_DIR)/, $(SRC:.c=.o))
 OBJS_BONUS = $(addprefix $(OBJ_DIR)/, $(SRC_BONUS:.c=.o))
